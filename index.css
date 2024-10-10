@@ -33,12 +33,14 @@ form {
     flex-direction: column;
     gap: 10px; 
     margin-left: 20px; 
+    text-transform: uppercase;
     
 }
 label {
     display: flex;
     justify-content: space-between;
     width: 300px; 
+    text-transform: uppercase;
     
 }
 
@@ -57,6 +59,8 @@ button {
     border-radius: 5px;
     transition-duration: 500ms;
     background-color: rgb(198, 242, 227);
+    text-transform: uppercase;
+    cursor: pointer;
     }
 
 button:hover{
